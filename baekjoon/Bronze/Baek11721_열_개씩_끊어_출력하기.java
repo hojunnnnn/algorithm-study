@@ -10,7 +10,7 @@ public class Baek11721_열_개씩_끊어_출력하기 {
         for (int i = 0; i < str.length(); i++) {
             System.out.print(str.charAt(i));
 
-            if (i % 10 == 9) { // 10의 배수가 될 때 개행행
+            if (i % 10 == 9) { // 10의 배수가 될 때 개행
                System.out.println();
             }
         }
