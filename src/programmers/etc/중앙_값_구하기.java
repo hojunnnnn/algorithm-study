@@ -8,7 +8,6 @@ public class 중앙_값_구하기 {
 
         System.out.println(solution(array));
         System.out.println(solution(array1));
-        System.out.println(solution(array1));
     }
     public static int solution(int[] array) {
         int answers = 0;
