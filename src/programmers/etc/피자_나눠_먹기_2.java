@@ -10,7 +10,7 @@ public class 피자_나눠_먹기_2 {
 
     public static int solution(int n) {
         int answer = 1;
-        while ((6 * answer) % n == 0) {
+        while ((6 * answer) % n != 0) {
             answer++;
         }
         return answer;
